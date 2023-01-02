@@ -109,11 +109,12 @@
     top: 11em;
     left: 28em;
   }
-
+ 
   .slider-img {
     width: 800px;
     height: 600px;
     border-radius: 10px;
+    
   }
   .close-icon {
     top: -56%;
