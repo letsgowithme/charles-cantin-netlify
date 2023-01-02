@@ -60,7 +60,7 @@
 }
 @media screen and (min-width: 768px) {
   .slider {
-    top: 8em;
+    top: 15em;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -98,7 +98,7 @@
   }
 
   .close-icon {
-    top: -25%;
+    top: -20%;
     right: -1.4%;
     width: 2em;
     height: 2em;
@@ -107,7 +107,7 @@
 @media screen and (min-width: 1200px) {
   .slider {
     top: 11em;
-    left: 20em;
+    left: 28em;
   }
 
   .slider-img {
@@ -116,7 +116,7 @@
     border-radius: 10px;
   }
   .close-icon {
-    top: -76%;
+    top: -56%;
     right: -2%;
   }
 }
