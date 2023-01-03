@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import "./index.css";
 
-import { hydrate, render } from "react-dom";
+// import { hydrate, render } from "react-dom";
  
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,11 +14,11 @@ root.render(
   document.getElementById("root")
 );
 
-const rootElement = document.getElementById("root");
-if (rootElement.hasChildNodes()) {
-  hydrate(<App />, rootElement);
-} else {
-  render(<App />, rootElement);
-}
+// const rootElement = document.getElementById("root");
+// if (rootElement.hasChildNodes()) {
+//   hydrate(<App />, rootElement);
+// } else {
+//   render(<App />, rootElement);
+// }
 
 
