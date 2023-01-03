@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer footer-color">
      <WebIcons />
 
-      <div className="copyright">copyright 2022 Charles Cantin</div>
+      <div className="copyright">copyright 2022 Iryna Guenin</div>
     </div>
   );
 };
