@@ -8,5 +8,7 @@
         width: 40px;
         height: 40px;
         cursor: pointer;
+        background: var(--bg-nav-color);
+        color: var(--bg-lightgray);
       }
 }
