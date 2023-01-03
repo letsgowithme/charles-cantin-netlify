@@ -22,11 +22,12 @@ body {
   top: 18%;
   font-size: 1.6em;
   color: var(--color-white);
-  z-index: 5;
+  z-index: 3;
 }
 .bg-pages {
   display: block;
   height: 100vh;
+  z-index: -2;
 }
 
 }
