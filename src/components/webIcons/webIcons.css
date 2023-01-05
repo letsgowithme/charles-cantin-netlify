@@ -10,5 +10,6 @@
         cursor: pointer;
         background: var(--bg-nav-color);
         color: var(--bg-lightgray);
+        border-radius: 50%;
       }
 }
