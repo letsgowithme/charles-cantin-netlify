@@ -2,7 +2,7 @@ import React from "react";
 import "./pricesServices.css";
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
-import PricesServices_bg from "../../../assets/pricesServices_bg.png";
+import PricesServices_bg from "../../../assets/pages_bg.png";
 
 const PricesServices = () => {
   return (

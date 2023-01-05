@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../header/Header";
 import "./gallery.css";
 import CategoryNav from "../../categoryNav/CategoryNav";
-import GalleryBg from "../../../assets/gallery_bg.jpg";
+import GalleryBg from "../../../assets/pages_bg.png";
 
 import Footer from "../../footer/Footer";
 
