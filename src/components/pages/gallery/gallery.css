@@ -23,7 +23,20 @@
   .categories-title {
     display: none;
   }
-  
+  .galleryImages {
+    width: 100%;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    
+  }
+  .collage_group2,
+  .collage_group3 {
+    display: none;
+  }
+
 }
 @media screen and (min-width: 768px) {
   body {
@@ -46,11 +59,32 @@
     position: absolute;
     top: 20%;
   }
+  .galleryImages {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }
 }
 
 @media screen and (min-width: 1024px) {
   body {
     overflow-y: hidden;
+  }
+  .galleryImages {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 28%;
+    left: 56%;
+    
+  }
+  .collage_group2,
+  .collage_group3
+   {
+    display: block;
   }
   
 }

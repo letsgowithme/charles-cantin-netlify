@@ -9,10 +9,14 @@
     justify-content: center;
     align-items: center;
     z-index: 10;
+   
+    
   }
   .slider-img {
-    width: 370px;
-    height: 250px;
+    width: 400px;
+    height: 350px;
+    border: 10px solid white;
+    
   }
 
   .right-arrow {
@@ -65,8 +69,8 @@
     transform: translateX(-50%);
   }
   .slider-img {
-    width: 740px;
-    height: 500px;
+    width: 820px;
+    height: 600px;
     border-radius: 10px;
   }
   .right-arrow {
@@ -112,7 +116,7 @@
  
   .slider-img {
     width: 800px;
-    height: 600px;
+    height: 630px;
     border-radius: 10px;
     
   }

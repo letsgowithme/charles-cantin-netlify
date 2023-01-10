@@ -31,6 +31,7 @@ class WeddingCategory extends React.Component {
             {this.state.show ? (
               <WeddingSlider slides={WeddingSliderData} />
             ) : null}
+            
           </div>
         </div>
       </>

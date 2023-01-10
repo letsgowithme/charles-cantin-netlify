@@ -5,6 +5,7 @@ import CategoryNav from "../../categoryNav/CategoryNav";
 import GalleryBg from "../../../assets/pages_bg.png";
 
 import Footer from "../../footer/Footer";
+// import GalleryImages from "./GalleryImages";
 
 const Gallery = () => {
   return (
@@ -23,6 +24,9 @@ const Gallery = () => {
       <Header />
 
       <CategoryNav className="category-nav" />
+      {/* <div  className="galleryImages">
+      <GalleryImages />
+      </div> */}
       
       <Footer />
       </div>
