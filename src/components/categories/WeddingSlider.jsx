@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { WeddingSliderData } from "./WeddingSliderData";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight, FaTimesCircle } from "react-icons/fa";
 import "./ImageSlider.css";
-import GalleryImages from "../pages/gallery/GalleryImages";
 
 
 const WeddingSlider = ({ slides }) => {
@@ -26,7 +25,7 @@ const WeddingSlider = ({ slides }) => {
       setCurrent(current === false );
       setSliderClass("slider-icon hidden");
       setArrowClass("arrow hidden");
-      // setGalleryClass("gallery_collage visible")
+      
     
   };
 
@@ -36,9 +35,6 @@ const WeddingSlider = ({ slides }) => {
 
   return (
     <>
-    {/* <div className={gallery_class}>
-      <GalleryImages />
-      </div> */}
     <section className="slider">
       
  
