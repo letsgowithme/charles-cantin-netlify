@@ -9,7 +9,7 @@ import Footer from "../../footer/Footer";
 
 const Gallery = () => {
   return (
-    <>
+    <> 
     <div className="gallery-container">
 
     

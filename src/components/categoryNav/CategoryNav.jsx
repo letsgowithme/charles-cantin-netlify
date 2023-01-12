@@ -15,7 +15,7 @@ const Navbar = () => {
   const [gallery_class, setGalleryClass] = useState("gallery_collage visible");
 
   // toggle
-  const updateMenu = () => {
+  const updateMenu = () => { 
     if (!isMenuClicked) {
       setBurgerClass("burger-title clicked");
       setMenuClass("menu visible");
