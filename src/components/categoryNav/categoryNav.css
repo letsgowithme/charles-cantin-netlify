@@ -106,8 +106,6 @@
     border: none;
     font-size: 1.6em;
     z-index: 3;
-    background: red;
-   
 
   }
   
@@ -145,8 +143,7 @@
   .burger-title {
     width: auto;
     height: 2em;
-    /* background-color: var(--bg-nav-color); */
-    background: green;
+    background-color: var(--bg-nav-color);  
     border: 1px solid white;
     border-radius: 0.5em;
     padding: 5px;
@@ -155,14 +152,7 @@
     letter-spacing: 1px;
     margin: 0 1.8em;
   }
-  /* .burger-menu {
-    visibility: visible;
-  } */
-  /* .burger-title {
-visibility: visible;
-
-  }
-   */
+ 
   .menu-list {
     position: absolute;
     top: 20%;
