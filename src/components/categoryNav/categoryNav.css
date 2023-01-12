@@ -106,6 +106,7 @@
     border: none;
     font-size: 1.6em;
     z-index: 3;
+    background: red;
    
 
   }
@@ -144,7 +145,8 @@
   .burger-title {
     width: auto;
     height: 2em;
-    background-color: var(--bg-nav-color);
+    /* background-color: var(--bg-nav-color); */
+    background: green;
     border: 1px solid white;
     border-radius: 0.5em;
     padding: 5px;

@@ -68,18 +68,7 @@
     cursor: pointer;
     padding: 10px;
   }
-  /* .slider-icon {
-    position: absolute;
-    top: -30%;
-    color: rgb(83, 87, 87);
-    right: -11%;
-    font-size: 2rem;
-    background-color: #fff;
-    border-radius: 50%;
-    width: 1em;
-    height: 1em;
-
-  } */
+ 
 }
 @media screen and (min-width: 1024px) {
   .btn-category {
