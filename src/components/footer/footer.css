@@ -6,7 +6,7 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 0;
-    z-index: 12;
+    /* z-index: 12; */
     
   }
 
@@ -44,7 +44,7 @@
     position: absolute;
     text-align: center;
     /* bottom: 1%; */
-    z-index: 12;
+    /* z-index: 12; */
     left: 50%;
     transform: translateX(-50%);
   }
@@ -95,4 +95,5 @@
     display: block;
      
   }
+  
 }

@@ -13,7 +13,6 @@ const WeddingSlider = ({ slides }) => {
 
   const [slider_class, setSliderClass] = useState("slider-icon");
   const [arrowClass, setArrowClass] = useState("arrow");
-  // const [gallery_class, setGalleryClass] = useState("galleryImages visible");
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);

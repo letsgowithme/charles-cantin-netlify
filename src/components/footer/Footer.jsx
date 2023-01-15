@@ -5,7 +5,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer footer-color">
+    <div className="footer footer-color prices-page-footer home-page-footer contact-page-footer gallery-page-footer mentions-page-footer">
       <WebIcons className="footer-item" />
       <div className="footer-items">
         <Link to="/mentionsLegales" className="mentionsLegales footer-item">

@@ -2,15 +2,22 @@
   body {
     scroll-behavior: auto;
     overflow-y: visible;
+    
   }
   
   h3,
   p {
     color: var(--bg-darkblue);
   }
-  .footer-color {
+  .prices_services_page-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+  }
+  .prices-page-footer {
     position: absolute;
-    bottom: -280%;
+    top: 370%;
 
   }
   .prices-page-title {
@@ -19,24 +26,20 @@
     position: absolute;
     top: 10%;
   }
-  /* .pages-bg {
+  .pages-bg {
     display: none;
     height: 100vh;
     
-  } */
-  .prices_services_page-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     
   }
+  
     
-  .prices-page-title {
+  /* .prices-page-title {
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     position: absolute;
     top: 10%;
-  }
+  } */
   
   
 }
@@ -56,16 +59,17 @@
     border-radius: 10px;
     background-color: transparent;
   }
-  .footer-color {
+  .prices-page-footer 
+   {
     position: absolute;
-    bottom: -80%;
+    top: 173%;
 
   }
 }
 @media screen and (min-width: 1024px) {
-  .footer-color {
+ .prices-page-footer {
     position: absolute;
-    bottom: -40%;
-
+    top: 125%;
   }
+  
 }
