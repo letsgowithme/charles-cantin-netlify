@@ -16,7 +16,7 @@
     position: absolute;
     top: 2.9%;
     left: 32%;
-    z-index: 3;
+    /* z-index: 3; */
   }
 
   .burger-menu {
@@ -29,17 +29,20 @@
   }
 
   .burger-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-25%);
     width: auto;
     height: 2em;
-    background-color: var(--bg-nav-color);
     border: 1px solid white;
     border-radius: 0.5em;
-    padding: 5px;
+    padding: 5px 10px;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
     margin: 0 1.8em;
     cursor: pointer;
+    z-index: 10;
   }
   .burger-title:hover {
     background-color: var(--bg-lightgray);
@@ -54,22 +57,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 20%;
+    position: absolute;
+    top: 15%;
     right: 0.3%;
     width: 100%;
     background: transparent;
-    z-index: 10;
+    /* z-index: 7; */
     
   }
-  .menu-list li {
-    background-color: rgba(89, 36, 180, 0.907);
-    margin-top: 6px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+  .btn {
+    background-color: var(--bg-btn);
+  
   }
-  .menu-list li:hover {
-    background-color: rgba(118, 36, 180, 0.668);
-  }
+  
   
   
 
@@ -93,7 +93,10 @@
 }
 @media screen and (min-width: 768px) {
   .hidden2 {
-    display: block;
+    display: none;
+  }
+  .visible {
+    display: inherit;
   }
   .burger-menu {
     visibility: hidden;
@@ -101,17 +104,18 @@
   .burger-title {
     visibility: visible;
     position: absolute;
-    margin-top: -10%;
+    margin-top: -12%;
+    left: 35%;
     width: 14em;
-    border: none;
-    font-size: 1.6em;
+    font-size: 1.4em;
     z-index: 3;
 
   }
   
   .burger-title:hover {
-    background-color: var(--bg-nav-color);
+    background-color: inherit;
     color: inherit;
+    /* cursor:default; */
   }
   nav {
     width: 100%; 
@@ -125,23 +129,20 @@
   .menu-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px 90px;
-    grid-auto-rows: minmax(100px, auto);
-    position: relative;
-    top: -130%;
+    gap: 5px -20px;
+    grid-auto-rows: minmax(50px, auto);
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-45%);
     
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .hidden2 {
-    display: none;
-  }
-  .visible {
-    display: inherit;
-  }
+  
   .burger-title {
-    width: auto;
+    width: 5rem2;
     height: 2em;
     background-color: var(--bg-nav-color);  
     border: 1px solid white;
@@ -151,12 +152,17 @@
     font-weight: 700;
     letter-spacing: 1px;
     margin: 0 1.8em;
+    cursor: pointer;
+    margin-top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
   }
  
   .menu-list {
     position: absolute;
     top: 20%;
-    left: 25%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 50%;
     display: flex;
     flex-direction: row;
@@ -170,7 +176,11 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  
   .menu-list li {
     margin-left: 5px;
+  }
+  .burger-title {
+    cursor: pointer;
   }
 }

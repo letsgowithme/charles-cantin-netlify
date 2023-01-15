@@ -1,4 +1,4 @@
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   body {
     scroll-behavior: auto;
     overflow-y: visible;
@@ -8,36 +8,36 @@
   p {
     color: var(--bg-darkblue);
   }
-  .footer-color {
-    position: absolute;
-    bottom: -280%;
-
-  }
-  .prices-page-title {
-    font-family: 'Libre Baskerville', serif;
-    text-transform: uppercase;
-    position: absolute;
-    top: 10%;
-  }
-  /* .pages-bg {
-    display: none;
-    height: 100vh;
-    
-  } */
   .prices_services_page-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     
   }
-    
-  .prices-page-title {
+  .pages-bg {
+    display: block;
+    height: 100vh;
+  }
+  .page-title {
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     position: absolute;
     top: 10%;
   }
   
+  
+  .prices-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0;
+    position: absolute;
+    top: 15%;
+    /* margin-bottom: 2em; */
+  }
+  .prices-item {
+    margin: 15px;
+  }
   
 }
 @media screen and (min-width: 768px) {
@@ -46,7 +46,6 @@
   }
   .pages-bg {
     display: block;
-    
   }
   
   .prices-title {
@@ -56,16 +55,4 @@
     border-radius: 10px;
     background-color: transparent;
   }
-  .footer-color {
-    position: absolute;
-    bottom: -80%;
-
-  }
-}
-@media screen and (min-width: 1024px) {
-  .footer-color {
-    position: absolute;
-    bottom: -40%;
-
-  }
-}
+} */

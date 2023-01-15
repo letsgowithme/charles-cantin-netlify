@@ -18,7 +18,7 @@ const Home = () => {
         />
         <MainTitle />
       </div>
-      <Footer className="home-footer"/>
+      <Footer className="home-page-footer"/>
     </div>
   );
 };

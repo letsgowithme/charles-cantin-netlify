@@ -10,7 +10,7 @@
     
   }
 
-  .footer-contact,
+  .footer-menu-contact,
   .mentionsLegales,
   .copyright
   {
@@ -18,6 +18,11 @@
     color: var(--bg-lightgray);
     padding: 0 10px;
     font-size: 1em;
+  }
+  .footer-menu-contact:hover,
+  .mentionsLegales:hover {
+    background: var(--bg-lightgray);
+    color: var(--bg-nav-color);
   }
   .copyright {
     width: 350px;
@@ -28,6 +33,9 @@
     width: 250px;
     
   }
+  .footer-menu-contact {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   .footer {
@@ -35,7 +43,7 @@
     flex-direction: column;
     position: absolute;
     text-align: center;
-    bottom: 1%;
+    /* bottom: 1%; */
     z-index: 12;
     left: 50%;
     transform: translateX(-50%);
@@ -45,22 +53,28 @@
     justify-content: space-around;
   }
   .footer-item {
-    margin: 0 10px;
-    width: 350px
-  }
+    margin: 0 5px;
+    width: 350px;
+    
+    }
   .mentionsLegales {
     position: absolute;
-    left: -70%;
-    bottom: 0;
+    left: -65%;
+    /* bottom: 0; */
     width: 200px
    
   }
-  .footer-contact {
+  .footer-menu-contact {
     position: absolute;
-    right: -70%;
-    bottom: 0;
-    width: 200px
+    right: -60%;
+    width: 180px;
+    padding: 0;
+    display: block;
   
+  }
+  .copyright {
+    width: 320px;
+
   }
   
 }
@@ -71,15 +85,14 @@
   .mentionsLegales {
     position: absolute;
     left: -170%;
-    bottom: 0;
     width: 250px
    
   }
-  .footer-contact {
+  .footer-menu-contact {
     position: absolute;
     right: -175%;
-    bottom: 0;
-    width: 250px
-  
+    width: 250px;
+    display: block;
+     
   }
 }

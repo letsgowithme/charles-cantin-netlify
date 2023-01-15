@@ -73,13 +73,13 @@
 }
 @media screen and (min-width: 768px) {
   .slider {
-    top: 15em;
-    left: 50%;
+    margin-top: 23%;
+    left: 45%;
     transform: translateX(-50%);
   }
   .slider-img {
-    width: 820px;
-    height: 600px;
+    width: 630px;
+    height: 450px;
     border-radius: 10px;
   }
   .right-arrow {
@@ -92,7 +92,7 @@
   }
   .close-icon {
     position: absolute;
-    top: -51%;
+    top: -22%;
     right: -1%;
     width: 2em;
     height: 2em;

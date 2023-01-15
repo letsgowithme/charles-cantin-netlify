@@ -12,7 +12,7 @@ class CoupleCategory extends React.Component {
   render() {
     return (
       <>
-        <div className="category">
+        <div className="category-block">
           <button
             className="btn btn-category btn_md-lg"
             onClick={() => this.setState({ show: !this.state.show })}

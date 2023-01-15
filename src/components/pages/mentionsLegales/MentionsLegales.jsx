@@ -75,7 +75,7 @@ const MentionsLegales = () => {
             intellectuelle et le Code civil.
           </p>
         </div>
-        <Footer className="mentions-footer" />
+        <Footer className="mentions-page-footer" />
       </div>
     </>
   );

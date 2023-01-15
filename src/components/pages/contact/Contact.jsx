@@ -21,7 +21,7 @@ const Contact = () => {
       </div>
       <Header />
       <ContactForm />
-      <Footer />
+      <Footer className="contact-page-footer" />
     </div>
   );
 };

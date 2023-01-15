@@ -10,6 +10,7 @@
     top: 0;
     width: 100%;
     left: 0;
+    /* z-index: 9; */
   }
 
   .inline-logo {
@@ -32,14 +33,17 @@
     justify-content: center;
     align-items: center;
     margin-right: 2rem;
+
     height: 100vh;
+    z-index: 12;
   }
 
   .nav-item {
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+    margin-top: -10px;
   }
 
   .menu-icon {
