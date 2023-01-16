@@ -177,10 +177,13 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  
-  .menu-list li {
-    margin-left: 5px;
+  .menu-list {
+    justify-content: space-between;
+    width: 80%;
+   
+ 
   }
+  
   .burger-title {
     cursor: pointer;
   }
