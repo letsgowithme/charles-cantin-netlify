@@ -4,6 +4,7 @@ import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 import PricesServices_bg from "../../../assets/pages_bg.png";
 import PricesServicesCards from "./PricesServicesCards";
+import { FaArrowCircleUp } from "react-icons/fa";
 
 const PricesServices = () => {
   return (
@@ -17,12 +18,17 @@ const PricesServices = () => {
         />
       </div>
       <Header />
-      <h1 className="page-title prices-page-title">Tarifs et prestations :</h1>
+      <h1 className="page-title prices-page-title" id="upPage">
+        Tarifs et prestations :
+      </h1>
       <PricesServicesCards />
+
+      <a href="#upPage">
+        <FaArrowCircleUp className="up" />
+      </a>
       <div id="prices-footer">
-      <Footer />
+        <Footer />
       </div>
-      
     </div>
   );
 };
