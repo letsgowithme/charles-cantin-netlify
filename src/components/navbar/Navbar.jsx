@@ -16,7 +16,7 @@ function Navbar() {
           <img
             src={Logo}
             alt="logo"
-            style={{ width: "100px", height: "50px", zIndex: "2" }}
+            style={{ width: "100px", height: "50px", zIndex: "5" }}
             className="inline-logo"
           />
         </Link>

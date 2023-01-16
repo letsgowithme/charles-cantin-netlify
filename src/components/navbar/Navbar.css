@@ -22,6 +22,12 @@
     font-size: 2rem;
     margin-top: -4px;
   }
+  .inline-logo {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
 
   .nav-menu {
     display: grid;
@@ -60,12 +66,7 @@
     color: var(--color-white);
   }
   
-  .inline-logo {
-    position: absolute;
-    top: -10px;
-    left: 0;
-    transform: translate(25%, 50%);
-  }
+ 
 
   .icon1 {
     color: var(--color-white);
@@ -141,6 +142,7 @@
     top: 5px;
     left: 0;
     transform: translate(25%, 50%);
+    z-index: 12;
   }
   .nav-links {
     text-align: center;
