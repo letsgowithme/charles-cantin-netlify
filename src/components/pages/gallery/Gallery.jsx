@@ -24,7 +24,7 @@ const Gallery = () => {
         <CategoryNav className="category-nav" />
         </div>
         <div>
-        <Footer className="gallery-page-footer" />
+        <Footer />
         </div>
         
       </div>

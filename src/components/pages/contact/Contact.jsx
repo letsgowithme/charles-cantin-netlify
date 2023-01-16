@@ -4,7 +4,6 @@ import Header from "../../header/Header";
 import "./contact.css";
 import Footer from "../../footer/Footer";
 import ContactForm from "../../ContactForm/ContactForm";
-// import ContactForm2 from "../../ContactForm/ContactForm2";
 import Contact_bg from "../../../assets/pages_bg.png";
 
 const Contact = () => {
@@ -21,7 +20,7 @@ const Contact = () => {
       </div>
       <Header />
       <ContactForm />
-      <Footer className="contact-page-footer" />
+      <Footer />
     </div>
   );
 };

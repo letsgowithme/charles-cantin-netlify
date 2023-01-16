@@ -19,8 +19,8 @@ const PricesServices = () => {
       <Header />
       <h1 className="page-title prices-page-title">Tarifs et prestations :</h1>
       <PricesServicesCards />
-      <div>
-      <Footer className="prices-page-footer" />
+      <div id="prices-footer">
+      <Footer />
       </div>
       
     </div>

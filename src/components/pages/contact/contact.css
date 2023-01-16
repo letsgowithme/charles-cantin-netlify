@@ -13,26 +13,19 @@ body {
     align-items: center;
     width: 100%;
     border-radius: 0;
-    
   }
-.contact-pages-title {
-  font-family: 'Libre Baskerville', serif;
-  text-transform: uppercase;
-  position: absolute;
-  top: 18%;
-  font-size: 1.6em;
-  color: var(--color-white);
-  /* z-index: 3; */
-}
-.bg-pages {
-  display: block;
-  height: 100vh;
-  /* z-index: -2; */
-}
-
+  .contact-pages-title {
+    font-family: "Libre Baskerville", serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 18%;
+    font-size: 1.6em;
+    color: var(--color-white);
+    /* z-index: 3; */
+  }
 }
 @media screen and (min-width: 768px) {
   .contact-pages-title {
-  font-size: 2em;
+    font-size: 2em;
   }
 }

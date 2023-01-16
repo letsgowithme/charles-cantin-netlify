@@ -36,13 +36,15 @@
     height: 100vh;
     z-index: 10;
   }
-  /* .nav-menu.active  */
+ 
   .nav-item {
+    position: relative;
+    top: -10%;
     display: flex;
     align-items: center;
     text-align: center;
     padding: 20px;
-    margin-top: -10px;
+    margin-top: -20px;
   }
 
   .menu-icon {
@@ -127,8 +129,8 @@
     transition: all 0.5s ease;
     margin-left: 2em;
     position: absolute;
-    /* top: 80px; */
-    /* left: 10%; */
+    top: 20px;
+    
   }
 
   .menu-icon {
