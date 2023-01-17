@@ -19,7 +19,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* z-index: -2; */
   }
 
   .bg-main_img {
@@ -34,9 +33,6 @@
   }
 }
 /* ---------------@media screen and (min-width: 768px)---- */
-
-@media screen and (min-width: 768px) {
-}
 
 @media screen and (min-width: 1024px) {
   .bg-main_img {

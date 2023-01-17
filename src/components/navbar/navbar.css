@@ -10,7 +10,6 @@
     top: 0;
     width: 100%;
     left: 0;
-    /* z-index: 6; */
   }
 
   .inline-logo {
@@ -42,7 +41,7 @@
     height: 100vh;
     z-index: 10;
   }
- 
+
   .nav-item {
     position: relative;
     top: -10%;
@@ -65,8 +64,6 @@
   .icon2 {
     color: var(--color-white);
   }
-  
- 
 
   .icon1 {
     color: var(--color-white);
@@ -91,7 +88,6 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
-    /* z-index: 10; */
   }
 
   .nav-menu.active {
@@ -131,7 +127,6 @@
     margin-left: 2em;
     position: absolute;
     top: 20px;
-    
   }
 
   .menu-icon {
@@ -154,5 +149,4 @@
     border-radius: 0;
     padding: 13px;
   }
-  
 }

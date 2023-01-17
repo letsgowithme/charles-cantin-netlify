@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import WebIcons from "../webIcons/WebIcons";
-// import "./footer.css";
+
 
 const Footer = () => {
   return (

@@ -30,9 +30,6 @@
   }
 
   .burger-title {
-    /* position: absolute;
-    left: -50%;
-    transform: translateX(20%); */
     width: auto;
     height: 2em;
     border: 1px solid white;
@@ -43,13 +40,13 @@
     letter-spacing: 1px;
     margin: 0 1.8em;
     cursor: pointer;
-    /* z-index: 10; */
   }
+
   .burger-title:hover {
     background-color: var(--bg-lightgray);
     color: var(--bg-darkblue);
   }
-  
+
   .menu {
     width: 100%;
     margin-top: -12em;
@@ -62,17 +59,12 @@
     top: 15%;
     right: 0.3%;
     width: 100%;
-    background: transparent;
-    /* z-index: 7; */
-    
+    background: transparent; 
   }
+
   .btn {
     background-color: var(--bg-btn);
-  
   }
-  
-  
-  
 
   /* ------------- sliding menu ------- */
   .hidden2 {
@@ -90,7 +82,6 @@
     background-color: var(--bg-lightgray);
     color: var(--bg-darkblue);
   }
-  
 }
 @media screen and (min-width: 768px) {
   .hidden2 {
@@ -109,24 +100,20 @@
     left: 35%;
     width: 14em;
     font-size: 1.4em;
-    /* z-index: 3 */
-
   }
-  
+
   .burger-title:hover {
     background-color: inherit;
     color: inherit;
-    /* cursor:default; */
   }
   nav {
-    width: 100%; 
+    width: 100%;
     background-color: transparent;
     position: absolute;
     top: 10%;
     left: 0;
-    /* z-index: 4; */
   }
-  
+
   .menu-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -136,16 +123,14 @@
     top: 7%;
     left: 50%;
     transform: translateX(-45%);
-    
   }
 }
 
 @media screen and (min-width: 1024px) {
-  
   .burger-title {
     width: 5rem2;
     height: 2em;
-    background-color: var(--bg-nav-color);  
+    background-color: var(--bg-nav-color);
     border: 1px solid white;
     border-radius: 0.5em;
     padding: 5px;
@@ -158,7 +143,7 @@
     left: 50%;
     transform: translateX(-50%);
   }
- 
+
   .menu-list {
     position: absolute;
     top: 20%;
@@ -170,7 +155,6 @@
     justify-content: space-around;
     position: fixed;
     /* z-index: 6; */
- 
   }
   .menu-list li {
     margin: -25px;
@@ -180,10 +164,8 @@
   .menu-list {
     justify-content: space-between;
     width: 80%;
-   
- 
   }
-  
+
   .burger-title {
     cursor: pointer;
   }

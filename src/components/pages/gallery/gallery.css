@@ -12,6 +12,7 @@
   .categories-title {
     display: none;
   }
+  
   .galleryImages {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -27,16 +28,9 @@
   .collage_group1 {
     width: 150px;
     height: 100px;
-    /* z-index: 1; */
   }
-
-  /* .gallery-page-footer {
-    height: 100px;
-    position: absolute;
-    top: 70%;
-    
-  } */
 }
+
 @media screen and (min-width: 768px) {
   .categories-title {
     display: block;
@@ -56,9 +50,6 @@
     width: 270px;
     height: 200px;
   }
-  /* .gallery-page-footer {
-    top: 90%;
-  } */
 }
 
 @media screen and (min-width: 1024px) {
@@ -70,7 +61,4 @@
     top: 28%;
     left: 46%;
   }
-  /* .gallery-page-footer {
-    top: 91%;
-  } */
 }

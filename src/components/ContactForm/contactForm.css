@@ -1,4 +1,4 @@
-@media screen and (min-width: 375px) {
+
   body,
   * {
     margin: 0;
@@ -37,8 +37,3 @@ width: 380px;
   .form-t-aria {
     resize: none;
   }
-}
-@media screen and (min-width: 768px) {
-}
-@media screen and (min-width: 1024px) {
-}

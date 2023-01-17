@@ -18,7 +18,12 @@ export default function PricesServicesCards() {
       {/* *******CARD 1 *********** */}
       <Card className="card-item">
         <CardActionArea>
-          <CardMedia component="img" image={Me} alt="femme" className="card-img" />
+          <CardMedia
+            component="img"
+            image={Me}
+            alt="femme"
+            className="card-img"
+          />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               « Juste moi »<br></br> 130 euros
@@ -32,7 +37,12 @@ export default function PricesServicesCards() {
       {/* *******CARD 2 ****************** */}
       <Card className="card-item">
         <CardActionArea>
-          <CardMedia component="img" image={Couple} alt="couple" className="card-img" />
+          <CardMedia
+            component="img"
+            image={Couple}
+            alt="couple"
+            className="card-img"
+          />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               « Pour deux »<br></br> 195 euros
@@ -51,7 +61,8 @@ export default function PricesServicesCards() {
             component="img"
             image={Family}
             alt="famille"
-            className="card-img" />
+            className="card-img"
+          />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               « Famille »<br></br> 220 euros
@@ -71,7 +82,8 @@ export default function PricesServicesCards() {
             component="img"
             image={Pregnancy}
             alt="grossesse"
-            className="card-img" />
+            className="card-img"
+          />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               « Il était une fois »<br></br> 160 euros
@@ -85,7 +97,12 @@ export default function PricesServicesCards() {
       {/* *******CARD 5****************** */}
       <Card className="card-item">
         <CardActionArea>
-          <CardMedia component="img" image={Baby} alt="bébé" className="card-img" />
+          <CardMedia
+            component="img"
+            image={Baby}
+            alt="bébé"
+            className="card-img"
+          />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               « Mon bébé »<br></br> 100 euros
@@ -103,7 +120,8 @@ export default function PricesServicesCards() {
             component="img"
             image={MyEvent}
             alt="evenement"
-            className="card-img" />
+            className="card-img"
+          />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               « J’immortalise l’événement »<br></br> sur mesure
