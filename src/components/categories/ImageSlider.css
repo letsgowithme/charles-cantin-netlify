@@ -120,7 +120,7 @@
 @media screen and (min-width: 1200px) {
   .slider {
     top: 11em;
-    left: 28em;
+    left: 50em;
   }
  
   .slider-img {
@@ -132,6 +132,11 @@
   .close-icon {
     top: -58%;
     right: -1%; 
+  }
+  .close-icon {
+    top: -45%;
+   
+   
   }
   
 }
