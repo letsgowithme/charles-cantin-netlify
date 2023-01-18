@@ -59,6 +59,7 @@
     grid-auto-rows: 270px;
     position: absolute;
     top: 28%;
-    left: 46%;
+    left: 53%;
+    transform: translateX(-50%);
   }
 }
