@@ -32,7 +32,7 @@ function Navbar() {
               }
               onClick={closeMobileMenu}
             >
-              Acceuil
+              Accueil
             </Link>
           </li>
           <li className="nav-item">
