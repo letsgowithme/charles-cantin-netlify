@@ -23,6 +23,5 @@ Pour respecter les Modalités Pédagogiques j’ai utilisé:
 
 # # Framework : Bootstrap, React.JS
 
-# # CMS :
-WordPress avec le thème créé à la main.
+# # CMS : WordPress avec le thème créé à la main.
 
