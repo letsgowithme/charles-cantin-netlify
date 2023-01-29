@@ -19,8 +19,10 @@ Une page “contact”
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Pour respecter les Modalités Pédagogiques j’ai utilisé:
 
-**Langages Front :** HTML5, CSS3, JavaScript
-**Framework : **Bootstrap, React.JS
-CMS :
+# # Langages Front : HTML5, CSS3, JavaScript
+
+# # Framework : Bootstrap, React.JS
+
+# # CMS :
 WordPress avec le thème créé à la main.
 
