@@ -40,6 +40,7 @@
     display: block;
     position: absolute;
     top: 20%;
+    z-ndex: 10;
   }
   .galleryImages {
     width: 80%;
