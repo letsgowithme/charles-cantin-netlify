@@ -11,7 +11,7 @@ const Footer = () => {
         <Link to="/mentionsLegales" className="footer-item mentionsLegales">
           Mentions Legales
         </Link>
-        <div className="footer-item copyright">copyright@2023 Iryna Guenin</div>
+        <div className="footer-item copyright">copyright&copy;2023 Iryna Guenin</div>
       </div>
     </div>
   );
