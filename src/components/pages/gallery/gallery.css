@@ -9,9 +9,7 @@
     flex-direction: column;
   }
 
-  .categories-title {
-    display: none;
-  }
+  
   
   .galleryImages {
     display: grid;
