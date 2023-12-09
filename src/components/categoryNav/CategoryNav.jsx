@@ -39,28 +39,10 @@ const Navbar = () => {
       <div className={gallery_class}>
         <GalleryImages />
       </div>
-      <div className={menu_class}>
-        <ul className="menu-list">
-          <li>
-            <WeddingCategory />
-          </li>
-          <li>
-            <PregnancyCategory />
-          </li>
-          <li>
-            <FamilyCategory />
-          </li>
-          <li>
-            <BabyCategory />
-          </li>
-          <li>
-            <BaptismCategory />
-          </li>
-          <li>
-            <CoupleCategory />
-          </li>
-        </ul>
-      </div>
+
+
+
+      
     </div>
   );
 };
