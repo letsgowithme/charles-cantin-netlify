@@ -9,6 +9,9 @@
     margin-top: 10%;
     /* height: 100vh;  */
   }
+  .MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-t1nuxs {
+    color: darkslategrey;
+}
   .card-item {
     margin: 1em;
     width: 350px;
