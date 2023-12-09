@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className={gallery_class}>
         <GalleryImages />
       </div>
-{/*       <div className={menu_class}>
+      <div className={menu_class}>
         <ul className="menu-list">
           <li>
             <WeddingCategory />
@@ -60,7 +60,7 @@ const Navbar = () => {
             <CoupleCategory />
           </li>
         </ul>
-      </div> */}
+      </div>
     </div>
   );
 };
